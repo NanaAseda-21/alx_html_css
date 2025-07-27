@@ -98,11 +98,15 @@ a {
 
 article {
 	padding: 50px 15px;
+	width: 350px;
+	background-color: green;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 article > *:first-child {
 	margin-top: 0;
 }
 aside {
+	width: 300px;
 	padding: 50px 15px;
 }
 header .right {
@@ -199,20 +203,4 @@ h6 {
   }
 }
 
-body{
-    flex-direction: column;
-}
 
-main{
-    flex-direction: row;
-}
-
-article{
-    flex: 2;
-    overflow-y: auto
-}
-
-aside{
-    flex: 1;
-    overflow-y: 
-}
